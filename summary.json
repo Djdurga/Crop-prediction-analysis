@@ -1,0 +1,59 @@
+{
+    "Basic Statistics": {
+        "Crop_Year": {
+            "count": 242361.0,
+            "mean": 2005.6257731235637,
+            "std": 4.958284627246459,
+            "min": 1997.0,
+            "25%": 2002.0,
+            "50%": 2006.0,
+            "75%": 2010.0,
+            "max": 2015.0
+        },
+        "Area": {
+            "count": 242361.0,
+            "mean": 12167.414481909218,
+            "std": 50857.44002417746,
+            "min": 0.1,
+            "25%": 87.0,
+            "50%": 603.0,
+            "75%": 4545.0,
+            "max": 8580100.0
+        },
+        "Production": {
+            "count": 242361.0,
+            "mean": 582503.442250981,
+            "std": 17065813.172410425,
+            "min": 0.0,
+            "25%": 88.0,
+            "50%": 729.0,
+            "75%": 7023.0,
+            "max": 1250800000.0
+        }
+    },
+    "Missing Values": {
+        "State_Name": 0,
+        "District_Name": 0,
+        "Crop_Year": 0,
+        "Season": 0,
+        "Crop": 0,
+        "Area": 0,
+        "Production": 0
+    },
+    "Model Performance": {
+        "Mean Squared Error": 19609067613333.523,
+        "R^2 Score": 0.9512621797280586
+    },
+    "Top 10 Features": {
+        "Area": 0.5955967057862962,
+        "Crop_Coconut ": 0.11807022952732774,
+        "State_Name_Karnataka": 0.11187243018960155,
+        "Crop_Year": 0.06523281457493527,
+        "State_Name_Kerala": 0.018737629071186982,
+        "District_Name_COIMBATORE": 0.01732503039981267,
+        "State_Name_Tamil Nadu": 0.01583946388228184,
+        "District_Name_KOZHIKODE": 0.013829552644854897,
+        "District_Name_WEST GODAVARI": 0.00774945400554851,
+        "District_Name_MALAPPURAM": 0.006510489997687027
+    }
+}
